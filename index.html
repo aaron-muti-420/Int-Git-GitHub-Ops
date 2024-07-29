@@ -91,63 +91,120 @@
 				</section>
 				</section>
 				<section>
-					<h2> So now lets talk about Git</h2>
-					<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Git_icon.svg/2048px-Git_icon.svg.png" style="width: 300px; height: auto;">
-					<p>Git is a distributed version control system that allows you to track changes to your code, collaborate with others, and manage your codebase.</p>	
+					<section>
+						<h2>So now let's talk about Git</h2>
+						<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Git_icon.svg/2048px-Git_icon.svg.png" style="width: 300px; height: auto;">
+						<p>Git is a distributed version control system that allows you to track changes to your code, collaborate with others, and manage your codebase.</p>
+					</section>
+					<section>
+						<h2>Why should I use Git?</h2>
+						<p>Git provides several benefits:</p>
+						<ul>
+							<li>Version control</li>
+							<li>Collaboration</li>
+							<li>Code management</li>
+						</ul>
+					</section>
+					<section>
+						<h2>How do I get started with Git?</h2>
+						<p>Getting started with Git is easy:</p>
+						<ol>
+							<li>Install Git</li>
+							<li>Configure Git</li>
+							<li>Create a repository</li>
+							<li>Commit changes</li>
+							<li>Push changes</li>
+						</ol>
+
+					</section>
+					<section>
+						<h2>What are some common Git commands?</h2>
+						<p>Some common Git commands include:</p>
+						<ol>
+							<li>git init - this is to initialize a new repository</li>
+							<li>git add - this is to add changes to the staging area</li>
+							<li>git commit - this is to commit changes to the repository</li>
+							<li>git push - this is to push changes to a remote repository</li>
+							<li>git pull - this is to pull changes from a remote repository</li>
+						</ol>
+					</section>
 				</section>
-				<section data-visibility="hidden">
-					<h2>Hidden Slides</h2>
-					<p>
-						This slide is visible in the source, but hidden when the presentation is viewed. You can show all hidden slides by setting the `showHiddenSlides` config option to `true`.
-					</p>
-				</section>
+				
 
 				<section data-auto-animate>
-					<h2 data-id="code-title">Pretty Code</h2>
+					<h2 data-id="code-title">Git Commands </h2>
 					<pre data-id="code-animation"><code class="hljs javascript" data-trim data-line-numbers>
-						import React, { useState } from 'react';
-
-						function Example() {
-						  const [count, setCount] = useState(0);
-
-						  return (
-						    ...
-						  );
-						}
+						git init
+						git add .
+						git commit -m "Initial commit"
+						git push origin master
+						git pull origin master
 					</code></pre>
-					<p>Code syntax highlighting courtesy of <a href="https://highlightjs.org/usage/">highlight.js</a>.</p>
+					<p>But where is my code stored? </p>
+					<br>
+					<p>💡 ...... Remote repository </p>
 				</section>
-
+				</section>
+				</section>
+				<section>
+					<section>
+						<h2>What is GitHub?</h2>
+						<img src="https://www.logo.wine/a/logo/GitHub/GitHub-Logo.wine.svg" style="width: 500px; height: auto;">
+						<p>GitHub is a web-based platform that allows you to host your code, collaborate with others, and manage your projects.</p>
+					</section>
+					<section>
+						<h2>Why should I use GitHub?</h2>
+						<p>GitHub provides several benefits:</p>
+						<ul>
+							<li>Code hosting</li>
+							<li>Collaboration</li>
+							<li>Project management</li>
+						</ul>
+					</section>
+					<section>
+						<h2>How do I get started with GitHub?</h2>
+						<p>Getting started with GitHub is easy:</p>
+						<ol>
+							<li>Create a GitHub account</li>
+							<li>Create a repository</li>
+							<li>Push your code to GitHub</li>
+							<li>Collaborate with others</li>
+						</ol>
+					</section>
+					<section>
+						<h2>What are some common GitHub features?</h2>
+						<p>Some common GitHub features include:</p>
+						<ul>
+							<li>Issues - to track bugs and feature requests</li>
+							<li>Pull requests - to propose changes to a repository</li>
+							<li>Projects - to organize and prioritize work</li>
+							<li>Actions - to automate workflows</li>
+						</ul>
+					</section>
+				</section>
+				<section>
+					<h2>GitHub Cli </h2>
+					<p>GitHub CLI brings GitHub to your terminal. It reduces context switching, helps you focus, and enables you to more easily script and create your own workflows.</p>	
+				</section>
 				<section data-auto-animate>
-					<h2 data-id="code-title">With Animations</h2>
+					<h2 data-id="code-title">Most used GitHub Commands</h2>
+					
 					<pre data-id="code-animation"><code class="hljs javascript" data-trim data-line-numbers="|4,8-11|17|22-24"><script type="text/template">
-						import React, { useState } from 'react';
+						gh auth login: Authenticates you to GitHub.
 
-						function Example() {
-						  const [count, setCount] = useState(0);
+							gh repo create <name>: Creates a new repository.
 
-						  return (
-						    <div>
-						      <p>You clicked {count} times</p>
-						      <button onClick={() => setCount(count + 1)}>
-						        Click me
-						      </button>
-						    </div>
-						  );
-						}
+								gh issue create <title>: Creates a new issue.
 
-						function SecondExample() {
-						  const [count, setCount] = useState(0);
+									gh pr create: Creates a pull request.	
 
-						  return (
-						    <div>
-						      <p>You clicked {count} times</p>
-						      <button onClick={() => setCount(count + 1)}>
-						        Click me
-						      </button>
-						    </div>
-						  );
-						}
+										gh pr list: Lists pull requests.
+
+											gh pr checkout <number>: Checks out a pull request.
+
+												gh pr status: Shows the status of a pull request.
+
+													gh pr merge: Merges a pull request.		
 					</script></code></pre>
 				</section>
 
